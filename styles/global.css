@@ -214,6 +214,21 @@ html {
     filter: drop-shadow(10px 10px 10px #00000052);
   }
 
+  .pdfblock {
+    width: 800px;
+    height: 800px;
+    background-color: #252525;
+    margin: 25px;
+    border-radius: 25px;
+    filter: drop-shadow(10px 10px 10px #00000052);
+  }
+
+  .pdfobject-container { 
+    width: 800px; 
+    height: 800px;
+    border-radius: 25px;
+  }
+
   ::-webkit-scrollbar {
     width: 20px;
   }
