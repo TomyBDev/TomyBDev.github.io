@@ -10,38 +10,47 @@
 
   <body>
 
-    <div class="wholeapp">
+    <div class="headerbar">
 
       <div></div>
 
-        <div class="mainbody">
-
-          <div id="nav-placeholder"></div>
-
-          <div class="aboutblock">
-
-            <div>
-              <img src="images/SelfImage.webp" class="selfimg"></img>
-              <p class="aboutblocktitle">Thomas Ballantyne</p>
-            </div>
-            
-           <p class="aboutblocktext">I live in Dundee, graduating last summer from Abertay University with a Bachelor of Science (Hons.) degree in Computer Game Technology (2.i).  Since then I have worked as a Graduate Business Analyst in the Oil and Gas Industry, but am really keen to pursue my dream career in game programming.  I am extremely hardworking, dedicated and focused.  I have a polite and friendly manner and have been praised during university team projects for my leadership, team working, coaching and interpersonal skills. I have over 5 years’ experience and knowledge in C++ and have been using Unreal Engine 4 and 5 for over 3 years’ now.</p>
-
-          </div>
-
-          </div>
-
-        </div>
+        <div> <div id="nav-placeholder"></div> </div>
 
       <div></div>
 
     </div>
 
-    <script>
+
+    <div class="pagecontent">
+
+      <div class="leftcolumn">
+        <div class="aboutblock">
+          <img src="images/SelfImage.webp" class="selfimg"></img>
+          <p class="aboutblocktitle">Thomas Ballantyne</p>
+          <p class="aboutblocktext">I live in Dundee, graduating last summer from Abertay University with a Bachelor of Science (Hons.) degree in Computer Game Technology (2.i). </p>
+        </div>
+
+        <div class="socialblock">
+          <button id="linkedinbutton" class="socialblockbutton">LinkedIn</button>
+          <button class="socialblockbutton">LinkedIn</button>
+          <button class="socialblockbutton">LinkedIn</button>
+          <button class="socialblockbutton">LinkedIn</button>
+          <button class="socialblockbutton">LinkedIn</button>
+          <button class="socialblockbutton">LinkedIn</button>
+        </div>
+      </div>
+
+      <div>
+      
+      </div>
+
+    </div>
+
+    <script src="scripts/scripts.js">
       $(function(){
         $("#nav-placeholder").load("/objects/header.html");
       });
-      </script>
+    </script>
 
   </body>
 </html>
