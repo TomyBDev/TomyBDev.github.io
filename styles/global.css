@@ -8,17 +8,28 @@
     src: url('../fonts/RobotoMono-Bold.ttf');
 }
 
+
+@font-face {
+  font-family: RobotoMono-Light;
+  src: url('../fonts/RobotoMono-Light.ttf');
+}
+
 html {
     background-color: #323337;
     overflow-x: hidden;
   }
 
-  h1 {
-    color: #FFFFFF;
-  }
-
   p {
     word-wrap: break-word;
+  }
+
+  ::selection {
+    background: #68aefed3; /* WebKit/Blink Browsers */
+    color: #DCDBCF;
+  }
+  ::-moz-selection {
+    background: #68aefed3; /* Gecko Browsers */
+    color: #DCDBCF;
   }
 
   .wholeapp {
@@ -27,15 +38,13 @@ html {
     grid-template-columns: auto minmax(0,1250px) auto;
   }
 
-  .mainbody {
-    /*border-color: aqua;
-    border-style: solid;
-    border-width: 3px;*/
-  }
-
   .header {
     display: grid;
     grid-template-columns: auto minmax(0, 1fr) auto;
+
+    /*border-color: rgb(195, 0, 255);
+    border-style: solid;
+    border-width: 3px;*/
   }
 
   .navbar {
@@ -45,9 +54,9 @@ html {
 
   .navbaritemtext {
     color: hsla(55, 16%, 84%, 0.247);
-    font-family: RobotoMono-Bold;
+    font-family: RobotoMono-Regular;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     transition: 0.3s;
     margin-left: 25px;
     margin-right: 25px;
@@ -66,8 +75,44 @@ html {
     width: 12rem;
     height: auto;
     margin: 10px;
+  }
 
-    /*border-color: rgb(195, 0, 255);
-    border-style: solid;
-    border-width: 3px;*/
+  .aboutblock {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-top: 50px;
+    background-color: #252525;
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    filter: drop-shadow(10px 10px 10px #00000052);
+  }
+
+  .aboutblocktitle {
+    color: hsla(55, 16%, 84%, 0.247);
+    font-family: RobotoMono-Regular;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.75rem;
+    line-height: 1.5;
+    padding-left: 25px; 
+    padding-right: 25px;
+  }
+
+  .aboutblocktext {
+    color: #DCDBCF;
+    font-family: RobotoMono-Light;
+    text-decoration: none;
+    font-size: 1.35rem;
+    line-height: 1.5;
+    padding-right: 25px;
+  }
+
+  .selfimg {
+    border-radius: 50%;
+    width: 75%;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 25px;
+    filter: drop-shadow(10px 10px 10px #00000052);
   }
