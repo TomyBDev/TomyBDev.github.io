@@ -202,16 +202,41 @@ html {
   }
 
   .gameblock {
-
     width: 800px;
     height: 800px;
     overflow-y: scroll;
     display: grid;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
     background-color: #252525;
     margin: 25px;
     border-radius: 25px;
     filter: drop-shadow(10px 10px 10px #00000052);
+  }
+
+  .gamefilter {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .gamefiltertext {
+    text-align: center;
+    font-family: RobotoMono-Regular;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .gametile {
+    width: 200px;
+    height: 300px;
+    background-color: #2C2E31;
+    border-radius: 25px;
+    filter: drop-shadow(10px 10px 10px #00000052);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   .pdfblock {
