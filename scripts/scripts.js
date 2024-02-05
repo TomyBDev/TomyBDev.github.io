@@ -28,7 +28,7 @@ function linkToYT()
 
 function linkToTwitch()
 {
-    window.open("https://www.twitch.tv/thomasbdev");
+    window.open("https://www.twitch.tv/thomasbde");
 }
 
 function linkToEmail()
