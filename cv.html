@@ -9,20 +9,61 @@
   </head>
 
   <body>
-    <div class="wholeapp">
+
+    <div class="headerbar">
+
       <div></div>
-        <div class="mainbody">
-          <div id="nav-placeholder"></div>
-            <p>CV</p>
+
+        <div> 
+          
+          <div id="nav-placeholder"></div> 
+        
+          <div class="pagecontent">
+
+            <div class="leftcolumn">
+              <div class="aboutblock">
+                <img src="images/SelfImage.webp" class="selfimg"></img>
+                <p class="aboutblocktitle">Thomas Ballantyne</p>
+                <p class="aboutblocktext">I am a highly motivated and passionate game progammer who enjoys the challanges involved with programming. I have over 5 years worth of experience with c++ and nearly 3 years of using Unreal Engine.</p>
+                <div style="margin-left: 15px;"><img style="margin-left: 10px;" width=24x height=24px src="images/ping2.png"><p class="aboutblocktext2" >Dundee</p></div>
+                <div style="margin-left: 15px;"><img style="margin-left: 10px;" width=24x height=24px src="images/mortarboard.png"><p class="aboutblocktext2" >Abertay University Bsc Hons. Computer Game Technology (2.i)</p></div>
+              </div>
+      
+              <div class="socialblock">
+                <button id="linkedinbutton" class="socialblockbutton"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/linkedin.png" alt="LinkedIn" title="LinkedIn" class="socialblockicon"><p class="socialblocktext">LinkedIn</p></button>
+                <button id="githubbutton" class="socialblockbutton"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/github.png" alt="GitHub" title="GitHub" class="socialblockicon"><p class="socialblocktext">GitHub</p></button>
+                <button id="xbutton" class="socialblockbutton"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/twitter.png" alt="Twitter" title="Twitter" class="socialblockicon"><p class="socialblocktext">Twitter</p></button>
+                <button id="ytbutton" class="socialblockbutton"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/youtube.png" alt="YouTube" title="YouTube" class="socialblockicon"><p class="socialblocktext">YouTube</p></button>
+                <button id="twitchbutton" class="socialblockbutton"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/twitch.png" alt="Twitch" title="Twitch" class="socialblockicon"><p class="socialblocktext">Twitch</p></button>
+                <button id="emailbutton" class="socialblockbutton"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/mail.png" alt="Email" title="Email" class="socialblockicon"><p class="socialblocktext">Email</p></button>
+              </div>
+            </div>
+      
+            <div class="Rightcolumn">
+              <div class="pdfblock">
+                <div id="example1"></div>
+              </div>
+            </div>
+      
+
           </div>
+
+        </div>
+
       <div></div>
+
     </div>
 
     <script>
       $(function(){
         $("#nav-placeholder").load("/objects/header.html");
       });
-      </script>
+    </script>
+
+    <script src="/scripts/scripts.js"></script>
+
+    <script src="/scripts/pdfobject.js"></script>
+    <script>PDFObject.embed("/pdfs/CV.pdf", "#example1");</script>
 
   </body>
 </html>

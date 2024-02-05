@@ -10,24 +10,51 @@
 
   <body>
 
-    <div class="wholeapp">
+    <div class="headerbar">
 
       <div></div>
 
-        <div class="mainbody">
+        <div> 
+          
+          <div id="nav-placeholder"></div> 
+        
+          <div class="pagecontent">
 
-          <div id="nav-placeholder"></div>
-
-          <div class="aboutblock">
-
-            <div>
-              <img src="images/SelfImage.webp" class="selfimg"></img>
-              <p class="aboutblocktitle">Thomas Ballantyne</p>
+            <div class="leftcolumn">
+              <div class="aboutblock">
+                <img src="images/SelfImage.webp" class="selfimg"></img>
+                <p class="aboutblocktitle">Thomas Ballantyne</p>
+                <p class="aboutblocktext">I am a highly motivated and passionate game progammer who enjoys the challanges involved with programming. I have over 5 years worth of experience with c++ and nearly 3 years of using Unreal Engine.</p>
+                <div style="margin-left: 15px;"><img style="margin-left: 10px;" width=24x height=24px src="images/ping2.png"><p class="aboutblocktext2" >Dundee</p></div>
+                <div style="margin-left: 15px;"><img style="margin-left: 10px;" width=24x height=24px src="images/mortarboard.png"><p class="aboutblocktext2" >Abertay University Bsc Hons. Computer Game Technology (2.i)</p></div>
+              </div>
+      
+              <div class="socialblock">
+                <button id="linkedinbutton" class="socialblockbutton"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/linkedin.png" alt="LinkedIn" title="LinkedIn" class="socialblockicon"><p class="socialblocktext">LinkedIn</p></button>
+                <button id="githubbutton" class="socialblockbutton"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/github.png" alt="GitHub" title="GitHub" class="socialblockicon"><p class="socialblocktext">GitHub</p></button>
+                <button id="xbutton" class="socialblockbutton"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/twitter.png" alt="Twitter" title="Twitter" class="socialblockicon"><p class="socialblocktext">Twitter</p></button>
+                <button id="ytbutton" class="socialblockbutton"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/youtube.png" alt="YouTube" title="YouTube" class="socialblockicon"><p class="socialblocktext">YouTube</p></button>
+                <button id="twitchbutton" class="socialblockbutton"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/twitch.png" alt="Twitch" title="Twitch" class="socialblockicon"><p class="socialblocktext">Twitch</p></button>
+                <button id="emailbutton" class="socialblockbutton"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/mail.png" alt="Email" title="Email" class="socialblockicon"><p class="socialblocktext">Email</p></button>
+              </div>
             </div>
-            
-           <p class="aboutblocktext">I live in Dundee, graduating last summer from Abertay University with a Bachelor of Science (Hons.) degree in Computer Game Technology (2.i).  Since then I have worked as a Graduate Business Analyst in the Oil and Gas Industry, but am really keen to pursue my dream career in game programming.  I am extremely hardworking, dedicated and focused.  I have a polite and friendly manner and have been praised during university team projects for my leadership, team working, coaching and interpersonal skills. I have over 5 years’ experience and knowledge in C++ and have been using Unreal Engine 4 and 5 for over 3 years’ now.</p>
+      
+            <div class="Rightcolumn">
 
-          </div>
+              <div class="gameblock">
+                <div class="gametile"></div>
+                <div class="gametile"></div>
+                <div class="gametile"></div>
+                <div class="gametile"></div>
+                <div class="gametile"></div>
+                <div class="gametile"></div>
+                <div class="gametile"></div>
+                <div class="gametile"></div>
+                <div class="gametile"></div>
+              </div>
+
+            </div>
+      
 
           </div>
 
@@ -41,7 +68,9 @@
       $(function(){
         $("#nav-placeholder").load("/objects/header.html");
       });
-      </script>
+    </script>
+
+    <script src="scripts/scripts.js"></script>
 
   </body>
 </html>
