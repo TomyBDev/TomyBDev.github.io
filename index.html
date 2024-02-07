@@ -1,11 +1,19 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
   <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>ThomasB Porfolio</title>
+
     <link rel="stylesheet" href="styles/global.css">
+
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
   </head>
 
   <body>
@@ -16,57 +24,39 @@
 
       <div id="page-content">
 
-          <div id="about-block">
+        <div id="about-block" class="block"></div>
 
-            <img src="images/SelfImage.webp" id="about-block-img"></img>
-            <p id="about-block-title">Thomas Ballantyne</p>
-            <p id="about-block-bio">I am a highly motivated and passionate game progammer who enjoys the challanges involved with programming. I have over 5 years worth of experience with c++ and nearly 3 years of using Unreal Engine.</p>
-            <div style="margin-left: 15px;"><img style="margin-left: 10px;" width=24x height=24px src="images/ping2.png"><p class="about-block-info" >Dundee</p></div>
-            <div style="margin-left: 15px;"><img style="margin-left: 10px;" width=24x height=24px src="images/mortarboard.png"><p class="about-block-info" >Abertay University Bsc Hons. Computer Game Technology (2.i)</p></div>
+        <div id="game-block" class="block">
           
-          </div>
+          <div class="gametile"></div>
+          <div class="gametile"></div>
+          <div class="gametile"></div>
+          <div class="gametile"></div>
+          <div class="gametile"></div>
+          <div class="gametile"></div>
+          <div class="gametile"></div>
+          <div class="gametile"></div>
+          <div class="gametile"></div>
+          <div class="gametile"></div>
+          <div class="gametile"></div>
+          <div class="gametile"></div>
 
-          <div id="game-block">
-            
-            <div class="gametile"></div>
-            <div class="gametile"></div>
-            <div class="gametile"></div>
-            <div class="gametile"></div>
-            <div class="gametile"></div>
-            <div class="gametile"></div>
-            <div class="gametile"></div>
-            <div class="gametile"></div>
-            <div class="gametile"></div>
-            <div class="gametile"></div>
-            <div class="gametile"></div>
-            <div class="gametile"></div>
+        </div>
 
-          </div>
-
-          <div id="social-block">
-
-            <button id="linkedinbutton" class="social-block-button"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/linkedin.png" alt="LinkedIn" title="LinkedIn" class="socialblockicon"><p class="socialblocktext">LinkedIn</p></button>
-            <button id="githubbutton" class="social-block-button"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/github.png" alt="GitHub" title="GitHub" class="socialblockicon"><p class="socialblocktext">GitHub</p></button>
-            <button id="xbutton" class="social-block-button"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/twitter.png" alt="Twitter" title="Twitter" class="socialblockicon"><p class="socialblocktext">Twitter</p></button>
-            <button id="ytbutton" class="social-block-button"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/youtube.png" alt="YouTube" title="YouTube" class="socialblockicon"><p class="socialblocktext">YouTube</p></button>
-            <button id="twitchbutton" class="social-block-button"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/twitch.png" alt="Twitch" title="Twitch" class="socialblockicon"><p class="socialblocktext">Twitch</p></button>
-            <button id="emailbutton" class="social-block-button"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/mail.png" alt="Email" title="Email" class="socialblockicon"><p class="socialblocktext">Email</p></button>
-          
-          </div>
+        <div id="social-block" class="block"></div>
 
       </div>
 
     </div>
-    
-    
 
     <script>
       $(function(){
         $("#nav-placeholder").load("/objects/header.html");
+        $("#about-block").load("/objects/about.html");
+        $("#social-block").load("/objects/social.html");
       });
     </script>
 
-    <script src="scripts/scripts.js"></script>
-
   </body>
+
 </html>
