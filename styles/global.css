@@ -91,7 +91,6 @@ html {
     margin-bottom: 25px;
     height: calc(90vh - 50px);
 
-    overflow: hidden;
     margin: 0;
 
     display: grid;
@@ -245,6 +244,9 @@ html {
   /* <---- PDF Block ----> */
 
   .pdfblock {
+    grid-column: span 2;
+    grid-row: span 3;
+
     background-color: var(--background-dark-color);
     border-radius: 25px;
     filter: drop-shadow(10px 10px 10px #00000052);
