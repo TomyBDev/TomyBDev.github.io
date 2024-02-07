@@ -91,6 +91,9 @@ html {
     margin-bottom: 25px;
     height: calc(90vh - 50px);
 
+    overflow: hidden;
+    margin: 0;
+
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
     grid-template-rows: repeat(6, 225px);
@@ -273,7 +276,6 @@ html {
   ::-webkit-scrollbar-thumb:hover {
     background-color: #DCDBCF;
   }
-
   
 @media (max-width: 1265px) {
   #game-block {
@@ -283,11 +285,19 @@ html {
     justify-self: center;
     width: min(380px, 100%);
   }
+
+  #page-content {
+    overflow-y: scroll;
+  }
 }
 
   
-@media (max-width: 830px) {
+@media (max-width: 830px) and (orientation:portrait) {
   #page-content {
+    overflow-y: visible;
+  }
+
+  html {
     overflow-y: scroll;
   }
 }
