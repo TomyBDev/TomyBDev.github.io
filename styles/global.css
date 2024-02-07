@@ -300,7 +300,7 @@ html {
 
 @media (max-width: 458px) {
   #page-content {
-    grid-template-columns: 90%;
+    grid-template-columns: repeat(auto-fit, 90%);
   }
 
   #header-logo {
