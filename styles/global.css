@@ -221,12 +221,6 @@ html {
     flex-wrap: wrap;
     
     background-color: var(--background-dark-color);
-
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    background-color: var(--background-color);
     border-radius: 25px;
     filter: drop-shadow(10px 10px 10px #00000052);
 
