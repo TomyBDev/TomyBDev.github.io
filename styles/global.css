@@ -231,6 +231,7 @@ html {
     margin-bottom: 0;
     margin-left: 2.5%;
     margin-right: 2.5%;
+    background-color: var(--background-color);
     border-radius: 25px;
     filter: drop-shadow(10px 10px 10px #00000052);
 
@@ -240,7 +241,7 @@ html {
   .gametile {
     width: 200px;
     height: 300px;
-    background-color: #2C2E31;
+    background-color: var(--background-color);
     border-radius: 25px;
     filter: drop-shadow(10px 10px 10px #00000052);
     margin-left: auto;
@@ -252,10 +253,7 @@ html {
   /* <---- PDF Block ----> */
 
   .pdfblock {
-    width: 800px;
-    height: 800px;
-    background-color: #252525;
-    margin: 25px;
+    background-color: var(--background-dark-color);
     border-radius: 25px;
     filter: drop-shadow(10px 10px 10px #00000052);
   }
