@@ -290,14 +290,3 @@ html {
     overflow-y: scroll;
   }
 }
-
-  
-@media (max-width: 830px) and (orientation:portrait) {
-  #page-content {
-    overflow-y: visible;
-  }
-
-  html {
-    overflow-y: scroll;
-  }
-}
