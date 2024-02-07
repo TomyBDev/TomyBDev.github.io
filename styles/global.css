@@ -22,7 +22,7 @@
 }
 
 html {
-    background-color: #323337;
+    background-color: var(--background-color);
     overflow-x: hidden;
     overflow-y: hidden;
   }
@@ -42,12 +42,9 @@ html {
 
   .page-deadspace {
     max-width: 1250px;
+    height: 100vh;
     margin-left: auto;
     margin-right: auto;
-
-    /*border-color: rgb(195, 0, 255);
-    border-style: solid;
-    border-width: 3px;*/
   }
 
   /* <---- Header ----> */
@@ -90,25 +87,26 @@ html {
     /* <---- Page Content ----> */
 
   #page-content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: calc(100vh - 100px);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: calc(90vh - 50px);
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-template-rows: repeat(6, 225px);
+    gap: 55px;
   }
 
  /* <---- About Block ----> */
 
   #about-block {
-    display: inline;
+    grid-column: span 1;
+    grid-row: span 2;
+
+    justify-self: center;
+    width: min(380px, 100%);
+
     background-color: var(--background-dark-color);
-    width: 30%;
-    min-width: 375px;
-    height: 65%;
-    min-height: 535px;
-    margin-top: 0;
-    margin-bottom: 2.5%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
     border-radius: 25px;
     filter: drop-shadow(10px 10px 10px #00000052);
   }
@@ -119,7 +117,7 @@ html {
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    width: 70%;
+    width: 64%;
     height: auto;
     filter: drop-shadow(10px 10px 10px #00000052);
   }
@@ -161,16 +159,13 @@ html {
   /* <---- Social Block ----> */
 
   #social-block {
-    display: inline;
+    grid-column: span 1;
+    grid-row: span 1;
+
+    justify-self: center;
+    width: min(380px, 100%);
+
     background-color: var(--background-dark-color);
-    width: 25%;
-    min-width: 375px;
-    height: 30%;
-    min-height: 235px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
     border-radius: 25px;
     filter: drop-shadow(10px 10px 10px #00000052);
   }
@@ -218,13 +213,13 @@ html {
     /* <---- Social Block ----> */
 
   #game-block {
+    grid-column: span 2;
+    grid-row: span 3;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     
-    width: 60%;
-    min-width: 375px;
-    height: calc(100vh - 100px);
     background-color: var(--background-dark-color);
 
     margin-top: 0;
@@ -284,3 +279,21 @@ html {
   ::-webkit-scrollbar-thumb:hover {
     background-color: #DCDBCF;
   }
+
+  
+@media (max-width: 1265px) {
+  #game-block {
+    grid-column: span 1;
+    grid-row: span 3;
+
+    justify-self: center;
+    width: min(380px, 100%);
+  }
+}
+
+  
+@media (max-width: 830px) {
+  #page-content {
+    overflow-y: scroll;
+  }
+}
