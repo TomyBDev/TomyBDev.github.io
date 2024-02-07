@@ -288,6 +288,14 @@ html {
     width: min(380px, 100%);
   }
 
+  .pdfblock {
+    grid-column: span 1;
+    grid-row: span 3;
+
+    justify-self: center;
+    width: min(380px, 100%);
+  }
+
   #page-content {
     overflow-y: scroll;
   }
