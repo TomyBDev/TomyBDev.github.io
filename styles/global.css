@@ -179,6 +179,10 @@ html {
   /* <---- Social Block ----> */
 
   #social-block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
     grid-column: span 1;
     grid-row: span 1;
 
@@ -186,17 +190,15 @@ html {
   }
 
   .social-block-button {
-    display: inline;
-    color: #DCDBCF;
-    background-color: #2C2E31;
+    display: flex;
+    vertical-align: middle;
+    margin: 5%;
+
+    color: var(--primary-text-color);
+    background-color: var(--background-color);
     text-decoration: none;
     border: none;
-    width: 45%;
-    height: 25%;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    margin-left: 2.5%;
-    margin-right: auto;
+
     border-radius: calc(25px - 2.5%);
   }
 
@@ -204,25 +206,29 @@ html {
     font-family: RobotoMono-Regular;
     text-decoration: none;
     font-size: 0.9rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   .social-block-button:hover {
-    color: #2C2E31;
-    background-color: #DCDBCF;
+    color: var(--background-color);
+    background-color: var(--primary-text-color);
   }
 
   .social-block-button:active {
-    background-color: #DCDBCF;
+    background-color: var(--primary-text-color);
     box-shadow: 1px 3px #68aefe;
     transform: translfate(0px, 4px);
   }
 
   
   .social-block-icon {
-    float: left;
     margin-top: auto;
     margin-bottom: auto;
     width: 3rem;
+    height: auto;
   }
 
     /* <---- Social Block ----> */
