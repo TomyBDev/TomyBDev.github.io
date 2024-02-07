@@ -24,7 +24,7 @@
 html {
     background-color: var(--background-color);
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: scroll;
   }
 
   p {
@@ -42,7 +42,7 @@ html {
 
   .page-deadspace {
     max-width: 1250px;
-    height: 100vh;
+    height: 95vh;
     margin-left: auto;
     margin-right: auto;
   }
@@ -89,13 +89,14 @@ html {
   #page-content {
     margin-top: 25px;
     margin-bottom: 25px;
-    height: calc(90vh - 50px);
+    
+    /*height: calc(90vh - 50px);*/
 
     margin: 0;
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-    grid-template-rows: repeat(6, 225px);
+    grid-auto-rows: 225px;
     gap: 55px;
   }
 
@@ -297,6 +298,6 @@ html {
   }
 
   #page-content {
-    overflow-y: scroll;
+    
   }
 }
