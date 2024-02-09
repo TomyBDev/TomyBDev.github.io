@@ -26,20 +26,7 @@
 
         <div id="about-block" class="block"></div>
 
-        <div id="game-block" class="block">
-          
-          <div class="game-block-tile"><img class="game-block-img" src="/images/EvolutionCycle.webp"></div>
-          <div class="game-block-tile"></div>
-          <div class="game-block-tile"></div>
-          <div class="game-block-tile"></div>
-          <div class="game-block-tile"></div>
-          <div class="game-block-tile"></div>
-          <div class="game-block-tile"></div>
-          <div class="game-block-tile"></div>
-          <div class="game-block-tile"></div>
-          <div class="game-block-tile"></div>
-
-        </div>
+        <div id="game-block" class="block"></div>
 
         <div id="social-block" class="block"></div>
 
@@ -54,6 +41,9 @@
         $("#social-block").load("/objects/social.html");
       });
     </script>
+
+    <script type="application/json" src="data/gridData.json"></script>
+    <script type="module" src="scripts/loadGameData.js"></script>
 
   </body>
 
