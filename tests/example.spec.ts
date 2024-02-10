@@ -5,7 +5,6 @@ test('has title', async ({ page }) => {
 
   await page.waitForLoadState('domcontentloaded', { timeout: 15000 });
   await page.waitForLoadState('load', { timeout: 30000 });
-  await page.waitForLoadState('networkidle', { timeout: 5000 });
 
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/ThomasB/);
@@ -16,7 +15,6 @@ test('check social buttons', async ({ page }) => {
 
   await page.waitForLoadState('domcontentloaded', { timeout: 15000 });
   await page.waitForLoadState('load', { timeout: 30000 });
-  await page.waitForLoadState('networkidle', { timeout: 5000 });
 
   let context = await page.context();
 
@@ -33,7 +31,6 @@ test('game tile data loading', async ({ page }) => {
 
   await page.waitForLoadState('domcontentloaded', { timeout: 15000 });
   await page.waitForLoadState('load', { timeout: 30000 });
-  await page.waitForLoadState('networkidle', { timeout: 5000 });
 
   await expect(page.getByAltText('Evolution Cycle')).toBeVisible();
 });
