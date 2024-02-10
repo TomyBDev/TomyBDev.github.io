@@ -18,13 +18,13 @@ fetch("../data/gridData.json")
 
       gameBlockTile.addEventListener('mouseenter', function() {
         video.play(); // Start playing the video
-        video.style.visibility = 'visible';
+        video.style.opacity = 1;
+        video.currentTime = 0;
       });
       
       gameBlockTile.addEventListener('mouseleave', function() {
         video.pause(); // Pause the video
-        video.currentTime = 0;
-        video.style.visibility = 'hidden'; // Hide the video
+        video.style.opacity = 0; // Hide the video
       });
     });
   })
