@@ -2,41 +2,49 @@
     {
         "title": "Evolution Cycle",
         "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
-        "imageUrl": "/images/EvolutionCycle.webp"
+        "imageUrl": "/images/EvolutionCycle.webp",
+        "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4"
     },
     {
         "title": "Viral Infiltration",
         "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
-        "imageUrl": "/images/ViralInfiltration.webp"
+        "imageUrl": "/images/ViralInfiltration.webp",
+        "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4"
     },
     {
         "title": "Honour Project",
         "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
-        "imageUrl": "/images/HonourProject.webp"
+        "imageUrl": "/images/HonourProject.webp",
+        "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4"
     },
     {
         "title": "Casino Crasher",
         "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
-        "imageUrl": "/images/CasinoCrasher.webp"
+        "imageUrl": "/images/CasinoCrasher.webp",
+        "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4"
     },
     {
         "title": "Example",
         "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
-        "imageUrl": "/images/EvolutionCycle.webp"
+        "imageUrl": "/images/EvolutionCycle.webp",
+        "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4"
     },
     {
         "title": "Example",
         "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
-        "imageUrl": "/images/ViralInfiltration.webp"
+        "imageUrl": "/images/ViralInfiltration.webp",
+        "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4"
     },
     {
         "title": "Example",
         "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
-        "imageUrl": "/images/HonourProject.webp"
+        "imageUrl": "/images/HonourProject.webp",
+        "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4"
     },
     {
         "title": "Example",
         "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
-        "imageUrl": "/images/CasinoCrasher.webp"
+        "imageUrl": "/images/CasinoCrasher.webp",
+        "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4"
     }
 ]
