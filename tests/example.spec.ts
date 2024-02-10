@@ -20,7 +20,7 @@ test('check social buttons', async ({ page }) => {
 
     // Start waiting for new page before clicking. Note no await.
   const pagePromise = context.waitForEvent('page');
-  await page.getByRole('button', { name: 'LinkedIn' }).click({ force: true });
+  await page.getByRole('button', { name: 'LinkedIn' }).click();
   const newPage = await pagePromise;
   await newPage.waitForLoadState();
   await expect(newPage).toHaveURL(/www.linkedin.com/);
