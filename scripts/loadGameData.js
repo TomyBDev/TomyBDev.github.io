@@ -4,7 +4,7 @@ fetch("../data/gridData.json")
     var gameBlock = document.getElementById("game-block");
 
     for (var k in gameData) {
-      var tileHtml = '<div class="game-block-tile"><video webkit-playsinline playsinline class="game-block-video"><source src="' + gameData[k]['videoUrl'] + '" type="video/mp4"></video><img class="game-block-img" src="' + gameData[k]['imageUrl'] + '" alt="' + gameData[k]['title'] + '"><h3 class="game-block-title">' + gameData[k]['title'] + '</h3><p class="game-block-info">' + gameData[k]['description'] + '</p></div>';
+      var tileHtml = '<div class="game-block-tile"><video webkit-playsinline playsinline class="game-block-video"><source src="' + gameData[k]['videoUrl'] + '" type="video/webm"></video><img class="game-block-img" src="' + gameData[k]['imageUrl'] + '" alt="' + gameData[k]['title'] + '"><h3 class="game-block-title">' + gameData[k]['title'] + '</h3><p class="game-block-info">' + gameData[k]['description'] + '</p></div>';
       
       gameBlock.innerHTML += tileHtml;
     }
