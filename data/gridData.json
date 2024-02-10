@@ -7,17 +7,17 @@
     {
         "title": "Viral Infiltration",
         "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
-        "imageUrl": "/images/EvolutionCycle.webp"
+        "imageUrl": "/images/ViralInfiltration.webp"
     },
     {
-        "title": "Evolution Cycle",
+        "title": "Honour Project",
         "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
-        "imageUrl": "/images/EvolutionCycle.webp"
+        "imageUrl": "/images/HonourProject.webp"
     },
     {
-        "title": "Evolution Cycle",
+        "title": "Casino Crasher",
         "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
-        "imageUrl": "/images/EvolutionCycle.webp"
+        "imageUrl": "/images/CasinoCrasher.webp"
     },
     {
         "title": "Viral Infiltration",
@@ -30,12 +30,22 @@
         "imageUrl": "/images/EvolutionCycle.webp"
     },
     {
-        "title": "Evolution Cycle",
+        "title": "Viral Infiltration",
         "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
-        "imageUrl": "/images/EvolutionCycle.webp"
+        "imageUrl": "/images/ViralInfiltration.webp"
     },
     {
-        "title": "Evolution Cycle",
+        "title": "Honour Project",
+        "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
+        "imageUrl": "/images/HonourProject.webp"
+    },
+    {
+        "title": "Casino Crasher",
+        "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
+        "imageUrl": "/images/CasinoCrasher.webp"
+    },
+    {
+        "title": "Viral Infiltration",
         "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
         "imageUrl": "/images/EvolutionCycle.webp"
     }
