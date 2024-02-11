@@ -506,6 +506,21 @@ html {
     width: 40%;
   }
 
+  #cv-title {
+    font-size: 24px;
+  }
+
+  .cv-sub-title {
+    font-size: 11px;
+  }
+
+  .cv-hr {
+    display:inline-block; 
+    margin-left: 7.6%;
+    width: 35%; 
+    vertical-align: middle;
+  }
+
   .navbar-text {
     font-size: 1.25rem;
     margin-left: 25px;
