@@ -1,50 +1,50 @@
 [
     {
         "title": "Evolution Cycle",
-        "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
+        "description": "University professional project, where I made a game for a cycling machine as part of a team. I developed the software for interfacing with the bike in Unreal Engine.",
         "imageUrl": "/images/EvolutionCycle.webp",
         "videoUrl": "../videos/EvolutionCycleTrailer.mkv"
     },
     {
         "title": "Viral Infiltration",
-        "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
+        "description": "Stealth game made for Game Jam. I handled all gameplay programming as well as the dynamic vision cones.",
         "imageUrl": "/images/ViralInfiltration.webp",
         "videoUrl": "../videos/EvolutionCycleTrailer.mkv"
     },
     {
-        "title": "Honour Project",
-        "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
+        "title": "Honours Project",
+        "description": "Real time water simulation and rendering engine. The water simulation is using shallow water equations in the rasterization pipeline.",
         "imageUrl": "/images/HonourProject.webp",
         "videoUrl": "../videos/HonoursProjectTrailer.mp4"
     },
     {
+        "title": "Tiny Planets",
+        "description": "Augmented Reality Mobile game with a cool gravity system. Was developed as part of a university course.",
+        "imageUrl": "/images/TinyPlanets.webp",
+        "videoUrl": "../videos/EvolutionCycleTrailer.mkv"
+    },
+    {
+        "title": "Tank Game",
+        "description": "Game networking prototype build in godot. Gameplay elements are programmed in godot scripting language, while networking is using gdnative(c++) and winsock.",
+        "imageUrl": "/images/TankGame.webp",
+        "videoUrl": "../videos/EvolutionCycleTrailer.mkv"
+    },
+    {
         "title": "Casino Crasher",
-        "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
+        "description": "Game Jam project based around the theme of rolling of dice. I handled programming of the character in Blueprints in Unreal Engine. I'm currently rewriting it in c++.",
         "imageUrl": "/images/CasinoCrasher.webp",
         "videoUrl": "../videos/EvolutionCycleTrailer.mkv"
     },
     {
-        "title": "Example",
+        "title": "Toy's Have Infected People",
         "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
-        "imageUrl": "/images/EvolutionCycle.webp",
+        "imageUrl": "/images/ToyInfection.webp",
         "videoUrl": "../videos/EvolutionCycleTrailer.mkv"
     },
     {
-        "title": "Example",
-        "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
-        "imageUrl": "/images/ViralInfiltration.webp",
-        "videoUrl": "../videos/EvolutionCycleTrailer.mkv"
-    },
-    {
-        "title": "Example",
-        "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
-        "imageUrl": "/images/HonourProject.webp",
-        "videoUrl": "../videos/EvolutionCycleTrailer.mkv"
-    },
-    {
-        "title": "Example",
-        "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
-        "imageUrl": "/images/CasinoCrasher.webp",
-        "videoUrl": "../videos/EvolutionCycleTrailer.mkv"
+        "title": "This Website!!",
+        "description": "Not exactly a outstanding web developer, but was fun tinkering and building this site. Thanks for checking it out c:",
+        "imageUrl": "/images/WebsiteImage.webp",
+        "videoUrl": "../videos/WebsiteTrailer.mkv"
     }
 ]
