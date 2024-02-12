@@ -9,7 +9,7 @@
         "title": "Viral Infiltration",
         "description": "Stealth game made for Game Jam. I handled all gameplay programming as well as the dynamic vision cones.",
         "imageUrl": "/images/ViralInfiltration.webp",
-        "videoUrl": "../videos/EvolutionCycleTrailer.mkv"
+        "videoUrl": "../videos/ViralInfiltrationTrailer.mkv"
     },
     {
         "title": "Honours Project",
@@ -21,30 +21,30 @@
         "title": "Tiny Planets",
         "description": "Augmented Reality Mobile game with a cool gravity system. Was developed as part of a university course.",
         "imageUrl": "/images/TinyPlanets.webp",
-        "videoUrl": "../videos/EvolutionCycleTrailer.mkv"
+        "videoUrl": "../videos/TinyPlanetsTrailer.mkv"
     },
     {
         "title": "Tank Game",
         "description": "Game networking prototype build in godot. Gameplay elements are programmed in godot scripting language, while networking is using gdnative(c++) and winsock.",
         "imageUrl": "/images/TankGame.webp",
-        "videoUrl": "../videos/EvolutionCycleTrailer.mkv"
+        "videoUrl": "../videos/TempTrailer.mkv"
     },
     {
         "title": "Casino Crasher",
         "description": "Game Jam project based around the theme of rolling of dice. I handled programming of the character in Blueprints in Unreal Engine. I'm currently rewriting it in c++.",
         "imageUrl": "/images/CasinoCrasher.webp",
-        "videoUrl": "../videos/EvolutionCycleTrailer.mkv"
+        "videoUrl": "../videos/TempTrailer.mkv"
     },
     {
         "title": "Toy's Have Infected People",
         "description": "This is a cool project I worked on. Check this out, its sick. Really please do.",
         "imageUrl": "/images/ToyInfection.webp",
-        "videoUrl": "../videos/EvolutionCycleTrailer.mkv"
+        "videoUrl": "../videos/TempTrailer.mkv"
     },
     {
         "title": "This Website!!",
         "description": "Not exactly a outstanding web developer, but was fun tinkering and building this site. Thanks for checking it out c:",
-        "imageUrl": "/images/WebsiteImage.webp",
+        "imageUrl": "/images/website.webp",
         "videoUrl": "../videos/WebsiteTrailer.mkv"
     }
 ]
