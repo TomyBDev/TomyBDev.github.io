@@ -231,6 +231,8 @@ html {
 
   .social-block-button:hover .social-block-icon {
     transform: translate(-100%, 0);
+    
+    filter: grayscale(0);
   }
 
   .social-block-button:active {
@@ -246,6 +248,8 @@ html {
     position:relative;
     float: left;
     z-index: 1;
+
+    filter: grayscale(1);
 
     left: calc(50% - 1.5rem);
     transition: 1s;
