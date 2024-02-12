@@ -30,7 +30,7 @@ fetch("../data/gridData.json")
       if (gameBlockTile.id != "This Website!!")
       {
         gameBlockTile.addEventListener('click', function() {
-          window.open("/" + gameBlockTile.id.toLowerCase().replace(/ /g, "").replace(/'/g, "") +".html","_self");
+          window.open("/" + gameBlockTile.id.toLowerCase().replace(/ /g, "").replace(/'/g, ""),"_self");
         });
       }
       else
