@@ -4,7 +4,7 @@ fetch("../data/gridData.json")
     var gameBlock = document.getElementById("game-block");
 
     for (var k in gameData) {
-      var tileHtml = '<div class="game-block-tile"><video webkit-playsinline playsinline class="game-block-video"><source src="' + gameData[k]['videoUrl'] + '" type="video/webm"></video><img class="game-block-img" src="' + gameData[k]['imageUrl'] + '" alt="' + gameData[k]['title'] + '"><h3 class="game-block-title">' + gameData[k]['title'] + '</h3><p class="game-block-info">' + gameData[k]['description'] + '</p></div>';
+      var tileHtml = '<div class="game-block-tile" id="' + gameData[k]['title'] + '"><video webkit-playsinline playsinline class="game-block-video"><source src="' + gameData[k]['videoUrl'] + '" type="video/webm"></video><img class="game-block-img" src="' + gameData[k]['imageUrl'] + '" alt="' + gameData[k]['title'] + '"><h3 class="game-block-title">' + gameData[k]['title'] + '</h3><p class="game-block-info">' + gameData[k]['description'] + '</p></div>';
       
       gameBlock.innerHTML += tileHtml;
     }
@@ -26,6 +26,17 @@ fetch("../data/gridData.json")
         video.pause(); // Pause the video
         video.style.opacity = 0; // Hide the video
       });
+
+      if (gameBlockTile.id != "This Website!!")
+      {
+        gameBlockTile.addEventListener('click', function() {
+          window.open("/" + gameBlockTile.id.toLowerCase().replace(/ /g, "").replace(/'/g, "") +".html","_self");
+        });
+      }
+      else
+      {
+        gameBlockTile.style.cursor = 'default';
+      }
     });
   })
   .catch(error => {

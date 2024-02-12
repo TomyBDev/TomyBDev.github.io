@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ThomasB Porfolio</title>
+
+    <link rel="stylesheet" href="styles/global.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="page-deadspace">
+
+      <div id="nav-placeholder"></div>
+
+      <div id="page-content">
+
+        <div id="about-block" class="block"></div>
+
+        <div id="cv-block" class="block">
+
+          <h2 id="cv-title">Content Coming Soon.</h2>
+
+        </div>
+
+        <div id="social-block" class="block"></div>
+
+      </div>
+
+    </div>
+
+    <script>
+      $(function(){
+        $("#nav-placeholder").load("/objects/header.html");
+        $("#about-block").load("/objects/about.html");
+        $("#social-block").load("/objects/social.html");
+      });
+    </script>
+
+  </body>
+
+</html>
