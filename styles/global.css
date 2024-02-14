@@ -235,17 +235,6 @@ html {
     filter: grayscale(0);
   }
 
-  .info-block-button:hover .social-block-text {
-    opacity: 1;
-    transform: translate(20%, 0);
-  }
-
-  .info-block-button:hover .social-block-icon {
-    transform: translate(-100%, 0);
-    
-    filter: grayscale(0);
-  }
-
   .social-block-button:active, .info-block-button:active {
     background-color: var(--primary-text-color);
     box-shadow: 1px 3px #68aefe;
@@ -449,7 +438,8 @@ html {
 
     width: min(760px, 100%);
 
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
   }
 
   #info-title {
@@ -469,7 +459,7 @@ html {
     grid-auto-rows: auto;
     row-gap: 15px;
     column-gap: 0;
-    margin-right: 5%;
+    margin-LEFT: 3%;
 
     width: 36%;
     height: auto;
@@ -518,8 +508,8 @@ html {
 
   .info-sub-title {
     text-align: left;
-    margin-left: 5%;
-    margin-top: 5%;
+    margin-left: 3%;
+    margin-top: 2.5%;
     margin-bottom: 0;
 
 
@@ -531,8 +521,7 @@ html {
 
   .info-body-text {
     text-align: left;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
 
 
     color: var(--secondary-text-color);
@@ -553,6 +542,8 @@ html {
     margin: 5%;
     cursor: pointer;
     width: 100%;
+    max-width: 200px;
+    height: 60px;
 
     color: var(--primary-text-color);
     background-color: var(--background-color);
@@ -561,6 +552,23 @@ html {
     overflow: hidden;
 
     border-radius: calc(25px - 2.5%);
+  }
+
+  .info-block-button:hover .social-block-text {
+    opacity: 1;
+    transform: translate(20%, 0);
+  }
+
+  .info-block-button:hover .social-block-icon {
+    transform: translate(-125%, 0);
+    
+    filter: grayscale(0);
+  }
+
+  .info-img {
+    width: 27%; 
+    height: auto; 
+    padding: 3%;
   }
 
   /* <---- Fancy Scroll ----> */

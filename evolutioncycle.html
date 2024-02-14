@@ -52,16 +52,39 @@
 
           <h3 class="info-sub-title">About Game<hr class="info-hr"></h3>
 
-          <p class="info-body-text"></p>
+          <p class="info-body-text">Evolution Cycle is a 2.5D fantasy-styled game that uses Power inputs from a static bike to control gameplay. You are tasked with cycling at different power outputs to overcome obstacles and traverse a once magic forest to fight the enemy and restore magic to the world.</p>
   
+          <p class="info-body-text">Magic is fading from the world, and it is your task to embark on a mission through the forest to the boss’s lair to defeat them and restore magic to the world. Along the way you will encounter several types of obstacles you will have to overcome by pedaling on the bike.</p>
+
           <h3 class="info-sub-title">Contribution<hr class="info-hr"></h3>
 
-          <p class="info-body-text"></p>
+          <p class="info-body-text">My primary contribution to this project was integrating the cycling equiptment with the game. I achieved this by using the Ant+ protocol to send and recieve data from the bike, I developed a sensor connection screen in Unreal Engine to allow for users to connect to their sensor.</p>
   
+          <p class="info-body-text">Within gameplay I implemented reading power data from the bike to control the character, also I added control for the game to control the resistance and target power of the bike to match the gameplay.</p>
+
+          <p class="info-body-text">I also handled most non player related programming, such as the UI power graphs, power ups, all menu logic, level transitioning conditions, and build settings.</p>
+
+          <h3 class="info-sub-title">Gallery<hr class="info-hr"></h3>
+
+          <div style="display: flex; justify-content: center;">
+
+            <img class="info-img" src="/images/ECImage1.webp" alt="Evolution Cycle Image 1">
+            
+            <img class="info-img" src="/images/ECImage2.webp" alt="Evolution Cycle Image 2">
+            
+            <img class="info-img" src="/images/ECImage3.webp" alt="Evolution Cycle Image 3">
+
+          </div>
+
           <h3 class="info-sub-title">Links<hr class="info-hr"></h3>
 
-          <div style="display: flex;"><button class="info-block-button"><img src="../images/Exe.webp" alt="LinkedIn" title="LinkedIn" class="social-block-icon"><p class="social-block-text">.exe</p></button>
-          <button class="info-block-button"><img src="../images/SourceCode.webp" alt="GitHub" title="GitHub" class="social-block-icon"><p class="social-block-text">Source Code</p></button></div>
+          <div style="display: flex; justify-content: center;">
+
+            <button id="ec-exe-btn" class="info-block-button"><img src="../images/Exe.webp" alt="Executable" title="Executable" class="social-block-icon"><p class="social-block-text">Executable</p></button>
+            
+            <button id="ec-source-btn" class="info-block-button"><img src="../images/SourceCode.webp" alt="Source Code" title="Source Code" class="social-block-icon"><p class="social-block-text">Source Code</p></button>
+          
+          </div>
           
         </div>
 
@@ -78,6 +101,8 @@
         $("#social-block").load("/objects/social.html");
       });
     </script>
+
+    <script src="scripts/infoLinks.js"></script>
 
   </body>
 
