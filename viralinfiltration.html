@@ -26,9 +26,63 @@
 
         <div id="about-block" class="block"></div>
 
-        <div id="cv-block" class="block">
+        <div id="info-block" class="block">
 
-          <h2 id="cv-title">Content Coming Soon.</h2>
+          <h2 id="info-title">Viral Infiltration</h2>
+
+          <div id="info-right-column">
+
+            <img class="info-block-img" src="/images/ViralInfiltration.webp" alt="Viral Infiltration Image">
+
+            <p class="info-column-category">Title:</p><p class="info-column-text">Viral Infiltration</p>
+
+            <p class="info-column-category">Engine:</p><p class="info-column-text">Unreal Engine 5</p>
+
+            <p class="info-column-category">Programmer(s):</p><p class="info-column-text">Thomas Ballantyne,</p>
+
+            <p class="info-column-category">Artist(s):</p><div><p class="info-column-text">Callum Bowie,</p><p class="info-column-text">Nathan Douglas</p></div>
+
+            <p class="info-column-category">Platform:</p><p class="info-column-text">Microsoft Windows</p>
+
+            <br>
+
+          </div>
+
+          <h3 class="info-sub-title">About Game<hr class="info-hr"></h3>
+
+          <p class="info-body-text">Viral Infiltration is a Stealth Game, You control your character with WASD with abilities click 1 to go stealth and click F to hack items and objects around the map</p>
+  
+          <p class="info-body-text">You've been reincarnated as a virus after being stuck by the famous truck-kun. you have the aim to infect the computers of the big evil tech company that took away your social life by overworking you. take back control. infect them.</p>
+
+          <h3 class="info-sub-title">Contribution<hr class="info-hr"></h3>
+
+          <p class="info-body-text">This was originally for a Game Jam I was doing with some friends who hadn't made any games before, I was helping them learn. But we didn't get it completed enough at the time to submit.</p>
+  
+          <p class="info-body-text">I handled all the gameplay programming. A couple key features I worked on was an interaction system, which was built on an interface to allow for full flexability of interactable actors, along with in world widgets visuals.</p>
+
+          <p class="info-body-text">Another key feature I worked on was dynamic vision cones, this was achieved by using a real-time mesh plugin, and line tracers to map out the geometry around the player. I also did all the AI for this project.</p>
+
+          <h3 class="info-sub-title">Gallery<hr class="info-hr"></h3>
+
+          <div style="display: flex; justify-content: center;">
+
+            <img class="info-img" src="/images/VIImage1.webp" alt="Evolution Cycle Image 1">
+            
+            <img class="info-img" src="/images/VIImage2.webp" alt="Evolution Cycle Image 2">
+            
+            <img class="info-img" src="/images/VIImage3.webp" alt="Evolution Cycle Image 3">
+
+          </div>
+
+          <h3 class="info-sub-title">Links<hr class="info-hr"></h3>
+
+          <div style="display: flex; justify-content: center;">
+
+            <button id="vi-exe-btn" class="info-block-button"><img src="../images/Exe.webp" alt="Executable" title="Executable" class="social-block-icon"><p class="social-block-text">Executable</p></button>
+            
+            <button id="vi-source-btn" class="info-block-button"><img src="../images/SourceCode.webp" alt="Source Code" title="Source Code" class="social-block-icon"><p class="social-block-text">Source Code</p></button>
+          
+          </div>
           
         </div>
 
@@ -45,6 +99,8 @@
         $("#social-block").load("/objects/social.html");
       });
     </script>
+
+    <script src="scripts/infoLinks.js"></script>
 
   </body>
 

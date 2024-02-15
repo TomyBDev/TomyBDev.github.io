@@ -537,7 +537,7 @@ html {
     vertical-align: middle;
   }
 
-  .info-block-button {
+  .info-block-button, .info-block-button2 {
     display:block;
     margin: 5%;
     cursor: pointer;
@@ -563,6 +563,17 @@ html {
     transform: translate(-125%, 0);
     
     filter: grayscale(0);
+  }
+
+  .info-block-button2:hover .social-block-icon {
+    transform: translate(-75%, 0);
+    
+    filter: grayscale(0);
+  }
+
+  .info-block-button2:hover .social-block-text {
+    opacity: 1;
+    transform: translate(30%, 0);
   }
 
   .info-img {
