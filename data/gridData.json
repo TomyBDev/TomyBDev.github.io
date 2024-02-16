@@ -33,7 +33,7 @@
         "title": "Casino Crasher",
         "description": "Game Jam project based around the theme of rolling of dice. I handled programming of the character in Blueprints in Unreal Engine. I'm currently rewriting it in c++.",
         "imageUrl": "/images/CasinoCrasher.webp",
-        "videoUrl": "../videos/TempTrailer.mkv"
+        "videoUrl": "../videos/CasinoCrasherTrailer.mkv"
     },
     {
         "title": "Toy's Have Infected People",
