@@ -340,6 +340,7 @@ html {
 
     margin: 5%;
     display: block;
+    height: max-content;
 
     border: 3px solid var(--primary-text-color);
   }
