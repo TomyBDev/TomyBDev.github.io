@@ -69,6 +69,7 @@ a, a:visited, a:hover {
 	font-size: 28px;
 	padding: 20px 0 0 15px;
 	text-align: left;
+	line-height: 50%;
 }
 
 /* ------------- TIME STYLING ------------- */ 
@@ -120,6 +121,7 @@ a, a:visited, a:hover {
 	border: none;
 	line-height: 40px;
 	position: relative;
+	float: left;
 }
 
 .container form .search-field {
@@ -133,7 +135,7 @@ a, a:visited, a:hover {
 
 .container form .search-submit {
 	width: 10%;
-	top: 5px;
+	top: 30px;
 }
 
 .container form .search-submit:hover {
