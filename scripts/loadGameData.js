@@ -27,7 +27,13 @@ fetch("../data/gridData.json")
         video.style.opacity = 0; // Hide the video
       });
 
-      if (gameBlockTile.id != "This Website!!")
+      if(gameBlockTile.id.match("Weeble"))
+      {
+        gameBlockTile.addEventListener('click', function() {
+          window.open("https://Weeble.moe");
+        });
+      }
+      else if (gameBlockTile.id != "This Website!!")
       {
         gameBlockTile.addEventListener('click', function() {
           window.open("/" + gameBlockTile.id.toLowerCase().replace(/ /g, "").replace(/'/g, ""),"_self");

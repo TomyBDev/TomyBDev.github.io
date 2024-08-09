@@ -1,15 +1,14 @@
-[
+[    {
+        "title": "Weeble",
+        "description": "This is a daily anime guessing game I'm actively developing. Its developed using C++ and the crow library for the REST Server, SQLITE for the database, and HTML, css, and Java for the frontend.",
+        "imageUrl": "/images/WeebleCoverImage.webp",
+        "videoUrl": "../videos/Weeble.mkv"
+    },
     {
         "title": "Evolution Cycle",
         "description": "University professional project, where I made a game for a cycling machine as part of a team. I developed the software for interfacing with the bike in Unreal Engine.",
         "imageUrl": "/images/EvolutionCycle.webp",
         "videoUrl": "../videos/EvolutionCycleTrailer.mkv"
-    },
-    {
-        "title": "Viral Infiltration",
-        "description": "Stealth game made for Game Jam. I handled all gameplay programming as well as the dynamic vision cones.",
-        "imageUrl": "/images/ViralInfiltration.webp",
-        "videoUrl": "../videos/ViralInfiltrationTrailer.mkv"
     },
     {
         "title": "Honours Project",
@@ -22,6 +21,12 @@
         "description": "Augmented Reality Mobile game with a cool gravity system. Was developed as part of a university course.",
         "imageUrl": "/images/TinyPlanets.webp",
         "videoUrl": "../videos/TinyPlanetsTrailer.mkv"
+    },
+    {
+        "title": "Viral Infiltration",
+        "description": "Stealth game made for Game Jam. I handled all gameplay programming as well as the dynamic vision cones.",
+        "imageUrl": "/images/ViralInfiltration.webp",
+        "videoUrl": "../videos/ViralInfiltrationTrailer.mkv"
     },
     {
         "title": "Tank Game",
